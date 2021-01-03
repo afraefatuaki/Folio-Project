@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@font-face{
+    font-family: Athene;
+    src: url(../fonts/Athene.otf);
+}
+* {
+    margin: 0;
+  } 
+  /* fonts of all h1  */
+  h1{
+      font-size: 120px;
+  }
+  /* the font of all h1,h2 */
+h1,h2{
+    font-family: Athene;
+}
+/* the font of all p,h3,table */
+p,h3,table{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+header{
+    background-color: #efe8d7;
+}
+/* the top of the header */
+header ul li{
+    font-size: 12px;
+    color: #002a5a;
+    display: inline-block;
+}
+header ul li:first-of-type{
+  padding-left: 10%;
+}
+header ul li:nth-of-type(2){
+  padding-left: 70%
+}
+header ul{
+    padding: 8px 0;
+    border-bottom: 1px solid #002a5a;
+}
+/* styling the h1 of the header */
+header div{
+    text-align: center;
+}
+header h1{
+    color: #002a5a;
+}
+/* header div h1:first-of-type{
+    border-style:  none none solid none;
+    border-width: 1px;
+    width: 1000px
+} */
+/* header h1:nth-of-type(2),h1:nth-of-type(3) article:nth-of-type(2){
+    display: inline-flex;
+}
+header artciel:nth-of-type(2){
+    border: 2px solid #002a5a;
+} */
+header h4{
+    padding-bottom: 100px;
+    padding-right: 8%;
+}
+/* second section  */
+main section:first-of-type{
+    background-color:#F4C4C4;
+}
+main h3{
+    font-size: 10px;
+    padding: 60px 0 60px 10%;
+}
+/* the paragraph  */
+main section:first-of-type p{
+    text-align: left;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 10px 170px 100px 58%;
+}
+/* the logo */
+main section:first-of-type img{
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+}
+main section:first-of-type div:nth-of-type(2){
+    text-align: right;
+    padding-right: 150px
+}
+/* table */
+th,td {
+    border-bottom: 1px solid black;
+}
+table td{
+    font-size: 15px;
+    padding: 25px 0px;
+}
+table tr td:nth-of-type(2){
+    text-align: right;
+    padding-right: 0px;
+}
+table th{
+    text-align: left;
+    padding-right: 230px;
+}
+table caption{
+    padding: 0 100px auto 100%
+}
+table{
+    padding: 0 200px 50px 55%;
+}
+table caption{
+    text-align: right;
+    padding-right: 200px;
+}
+/* second section */
+main section:nth-of-type(2){
+    background-color:#DEB873;
+}
+/* the header */
+main section:nth-of-type(2) div:first-of-type{
+    text-align: right;
+    color: #7d2222
+}
+/* The paragraph */
+main section:nth-of-type(2) p{
+    text-align: left;
+    color: #7d2222;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 10px 58% 100px 170px ;
+}
+main section:nth-of-type(2) h3{
+    padding: 60px 10% 60px 0;
+}
+/* Photos size */
+main section:nth-of-type(2) img{
+    max-width: 45%;
+    max-height: 45%;
+    margin-right: 700px;
+}
+/* backgrounds pics */
+main section:last-of-type h2{
+    color: #7d2222;
+    font-size: 70px;
+
+}
+main section:last-of-type h2:first-of-type{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 250px;
+    background: url(../img/bg-marconatto-1.jpg) right/60% 100% no-repeat;
+    margin-bottom: 100px;
+}
+main section:last-of-type h2:nth-of-type(2){
+    text-align: right;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 250px;
+    background: url(../img/kathe_cover-1.jpg) left/60% 100% no-repeat;
+    margin-bottom: 100px;
+}
+main section:last-of-type h2:nth-of-type(3){
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 250px;
+    background: url(../img/bg-nicole-1.jpg) right/60% 100% no-repeat;
+    margin-bottom: 100px;
+}
+main section:last-of-type h2:nth-of-type(4){
+    text-align: right;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 250px;
+    background: url(../img/boa_cover-1.jpg) left/60% 100% no-repeat;
+    margin-bottom: 100px;
+}
+main section:last-of-type div:last-of-type{
+    padding-bottom: 100px;
+}
+/* last section */
+footer{
+    background-color:#D2D2D2;
+}
+footer h3{
+    font-size: 10px;
+    padding: 60px 0 60px 10%;
+    color: #1d8883;
+}
+footer h1{
+    color: #1d8883;
+}
+footer div:nth-of-type(2){
+    text-align: center;
+    color:  #1d8883;
+    margin-bottom: 100px;
+}
+footer nav{
+    text-align: right;
+    
+}
+footer nav ul a{
+    text-decoration: none;
+    color:  #1d8883;
+}
+footer nav ul li{
+    list-style: none;
+    line-height: 30px;
+}
+footer nav ul li a:hover{
+    text-decoration: underline;
+}
+footer nav ul{
+    padding: 0 100px 30px 0;
+}
+
+

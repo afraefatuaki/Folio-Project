@@ -6,13 +6,10 @@
 * {
     margin: 0;
   } 
-  /* fonts of all h1  */
-  h1{
-      font-size: 120px;
-  }
-  /* the font of all h1,h2 */
+/* the font of all h1,h2 */
 h1,h2{
     font-family: Athene;
+    font-size: 120px;
 }
 /* the font of all p,h3,table */
 p,h3,table{
@@ -21,6 +18,21 @@ p,h3,table{
 }
 header{
     background-color: #efe8d7;
+}
+/* How to center the borders? */
+header div h1{
+    /* text-align: center; */
+    font-size: 120px;
+    border-bottom: 1px solid #000;
+    width: 1000px;
+    padding-left: 20%;
+}
+span{
+    width: 100px;
+    height: 3px;
+    background: #000;
+    display:inline-block;
+    margin-bottom: 30px;
 }
 /* the top of the header */
 header ul li{
@@ -42,20 +54,12 @@ header ul{
 header div{
     text-align: center;
 }
+header img{
+    padding-top: 50px;
+}
 header h1{
     color: #002a5a;
 }
-/* header div h1:first-of-type{
-    border-style:  none none solid none;
-    border-width: 1px;
-    width: 1000px
-} */
-/* header h1:nth-of-type(2),h1:nth-of-type(3) article:nth-of-type(2){
-    display: inline-flex;
-}
-header artciel:nth-of-type(2){
-    border: 2px solid #002a5a;
-} */
 header h4{
     padding-bottom: 100px;
     padding-right: 8%;
@@ -92,6 +96,8 @@ th,td {
 table td{
     font-size: 15px;
     padding: 25px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 table tr td:nth-of-type(2){
     text-align: right;
@@ -110,6 +116,8 @@ table{
 table caption{
     text-align: right;
     padding-right: 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 /* second section */
 main section:nth-of-type(2){
@@ -147,7 +155,7 @@ main section:last-of-type h2:first-of-type{
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 250px;
-    background: url(../img/bg-marconatto-1.jpg) right/60% 100% no-repeat;
+    background: url(../img/bg-marconatto-1.jpg) right/contain no-repeat;
     margin-bottom: 100px;
 }
 main section:last-of-type h2:nth-of-type(2){
@@ -155,14 +163,14 @@ main section:last-of-type h2:nth-of-type(2){
     margin-right: 10%;
     margin-left: 10%;
     padding-bottom: 250px;
-    background: url(../img/kathe_cover-1.jpg) left/60% 100% no-repeat;
+    background: url(../img/kathe_cover-1.jpg) left/contain no-repeat;
     margin-bottom: 100px;
 }
 main section:last-of-type h2:nth-of-type(3){
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 250px;
-    background: url(../img/bg-nicole-1.jpg) right/60% 100% no-repeat;
+    background: url(../img/bg-nicole-1.jpg) right/contain no-repeat;
     margin-bottom: 100px;
 }
 main section:last-of-type h2:nth-of-type(4){
@@ -170,7 +178,7 @@ main section:last-of-type h2:nth-of-type(4){
     margin-right: 10%;
     margin-left: 10%;
     padding-bottom: 250px;
-    background: url(../img/boa_cover-1.jpg) left/60% 100% no-repeat;
+    background: url(../img/boa_cover-1.jpg) left/contain no-repeat;
     margin-bottom: 100px;
 }
 main section:last-of-type div:last-of-type{
@@ -200,6 +208,7 @@ footer nav{
 footer nav ul a{
     text-decoration: none;
     color:  #1d8883;
+    font-family: 'Open Sans', sans-serif;
 }
 footer nav ul li{
     list-style: none;
